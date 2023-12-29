@@ -487,7 +487,7 @@ async def post_init(application: Application) -> None:
 if __name__ == '__main__':
     application = (
         ApplicationBuilder()
-        .token(BOT_TOKEN)
+        .token(6265331956:AAHaetbJvYNbcLlrWE8tKL-mTPs9mIgwwr0)
         .concurrent_updates(True)
         .read_timeout(10)
         .connection_pool_size(50000)
