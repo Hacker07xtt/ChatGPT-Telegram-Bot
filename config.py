@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 WEB_HOOK = os.environ.get('WEB_HOOK', None)
-BOT_TOKEN = os.environ.get('BOT_TOKEN', None)
+BOT_TOKEN = os.environ.get('6265331956:AAHaetbJvYNbcLlrWE8tKL-mTPs9mIgwwr0', None)
 PORT = int(os.environ.get('PORT', '8080'))
 NICK = os.environ.get('NICK', None)
 API = os.environ.get('API', None)
